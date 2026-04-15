@@ -1,5 +1,4 @@
 # Project
 Amazon Price Tracker
 Developed a Python-based web scraping tool using Requests and BeautifulSoup to monitor and track real-time product prices on Amazon India. Implemented multi-selector HTML parsing to handle inconsistent page structures across different product listings. Automated price checks using the Schedule library to run at defined intervals, logging timestamped price history into structured CSV files. Added a price alert system that triggers notifications when a product falls below a user-defined target price.
-Job Listings Aggregator
-Built a multi-source job scraping and aggregation tool in Python using Playwright (headless Chromium) to extract live job listings from Internshala, Naukri, and Shine simultaneously. Implemented basic anti-bot techniques including random user-agent rotation, randomized request delays, and isolated browser contexts per site to mimic real human browsing behavior. Designed a deduplication engine to eliminate duplicate listings across sources based on title and company matching. Structured and exported scraped data into both JSON and CSV formats, and built a CLI-based filter system allowing users to query saved results by job title, location, or source platform.
+
